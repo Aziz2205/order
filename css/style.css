@@ -1,0 +1,204 @@
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+*:focus{
+  outline: 2px dotted var(--primary-light-coral-color);
+  outline-offset: 10px;
+}
+html {
+font-size: 62.5%;
+height: 100%;
+scroll-behavior: smooth;
+}
+
+ul,
+ol {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0;
+}
+
+
+
+
+
+body{
+  background-image: url(../images/bg\ color.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #F2F2F2;
+}
+.container{
+  padding-top: 10.2rem;
+  width: 100%;
+  max-width: 450px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.div{
+  width: 450px;
+  height: 697px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+}
+
+
+
+.music{
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 354px;
+  max-height: 98px;
+  background-color: white;
+  margin:0 48px ;
+  padding: 25px 24px;
+ border-radius: 11px;
+}
+
+.aaaaa{
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+
+.section__container {
+}
+.container {
+}
+.div {
+}
+.one {
+  font-size: 28px;
+  align-items: center;
+}
+.two {
+  max-width: 354px;
+  font-size: 16px;
+  color: #717FA6;;
+  line-height: 1.62;
+  align-items: center;
+  justify-content: center;
+  margin: 0 48px;
+}
+.annual {
+  color: #1F2E55;
+  font-size: 16px;
+}
+.player-img{
+ background-color: #DFE6FB;
+ border-radius: 50%;
+ padding: 15px;
+ /* width: 48px; */
+ /* height: 48px;  */
+ margin-right: 2rem;
+}
+.time {
+  color: #717FA6;
+  font-size: 1.6rem;
+  padding-top: 6px;
+}
+.change {
+  font-size: 1.4rem;
+  color: #382AE1;
+  text-decoration-line: underline;
+}
+.pay{
+
+  margin-top: 3.2rem;
+}
+.payment {
+  width: 354px;
+  height: 50px;
+  padding: 15px 102px;
+  background-color: #382AE1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+border-radius: 11px;
+color: #fff;
+font-size: 1.5rem;
+}
+.cancel {
+  margin-top: 3.2rem;
+  color: #717FA6;
+  font-size: 1.5rem;
+}
+
+.cancel:hover{
+  color: #1F2E55;
+  cursor: pointer;
+}
+
+.change:hover{
+  color: #766CF1;
+  cursor: pointer;
+}
+
+.payment:hover{
+  background-color: #766CF1;
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:375px) {
+  .div {
+  }
+  .one {
+    font-size: 2.2rem;
+  }
+  .container{
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+  .two {
+    font-size: 1.6rem;
+  }
+  .main__music-player {
+  }
+  .music {
+  }
+  .aaaaa {
+  }
+  .player-img {
+  }
+  .annual {
+    font-size: 1.4rem;
+  }
+  .time {
+    font-size: 1.4rem;
+  }
+  .change {
+    font-size: 1.3rem;
+    text-decoration-line: underline;
+  }
+  .pay {
+  }
+  .payment {
+  }
+  .cancel {
+  }
+  
+}
